@@ -10,6 +10,7 @@
 		9D7C13701F96F6680032628E /* XTSafeTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D7C13661F96F6680032628E /* XTSafeTimer.framework */; };
 		9D7C13751F96F6680032628E /* XTSafeTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7C13741F96F6680032628E /* XTSafeTimerTests.m */; };
 		9D7C13771F96F6680032628E /* XTSafeTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D7C13691F96F6680032628E /* XTSafeTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D7C13821F96F6780032628E /* NSSafeTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7C13801F96F6780032628E /* NSSafeTimer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,8 @@
 		9D7C136F1F96F6680032628E /* XTSafeTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XTSafeTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D7C13741F96F6680032628E /* XTSafeTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTSafeTimerTests.m; sourceTree = "<group>"; };
 		9D7C13761F96F6680032628E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D7C13801F96F6780032628E /* NSSafeTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSSafeTimer.m; sourceTree = "<group>"; };
+		9D7C13811F96F6780032628E /* NSSafeTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSSafeTimer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +74,8 @@
 		9D7C13681F96F6680032628E /* XTSafeTimer */ = {
 			isa = PBXGroup;
 			children = (
+				9D7C13811F96F6780032628E /* NSSafeTimer.h */,
+				9D7C13801F96F6780032628E /* NSSafeTimer.m */,
 				9D7C13691F96F6680032628E /* XTSafeTimer.h */,
 				9D7C136A1F96F6680032628E /* Info.plist */,
 			);
@@ -195,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D7C13821F96F6780032628E /* NSSafeTimer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
